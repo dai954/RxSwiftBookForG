@@ -14,6 +14,7 @@
 		0975F8FD26FDC82A00DED8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0975F8FC26FDC82A00DED8C4 /* Assets.xcassets */; };
 		0975F90026FDC82A00DED8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0975F8FE26FDC82A00DED8C4 /* LaunchScreen.storyboard */; };
 		0975F90A26FEC2E100DED8C4 /* ObservableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975F90926FEC2E100DED8C4 /* ObservableDemo.swift */; };
+		0975F90F2701948800DED8C4 /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975F90E2701948800DED8C4 /* BindingTextField.swift */; };
 		B599F7F633614B74A4DF616B /* Pods_RxSwiftBookForG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A1A30D95B7E1715872B30 /* Pods_RxSwiftBookForG.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		0975F90126FDC82A00DED8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0975F90726FDC85900DED8C4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0975F90926FEC2E100DED8C4 /* ObservableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableDemo.swift; sourceTree = "<group>"; };
+		0975F90E2701948800DED8C4 /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
 		664A1A30D95B7E1715872B30 /* Pods_RxSwiftBookForG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftBookForG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90224AB0F8C43DE726B90AAE /* Pods-RxSwiftBookForG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftBookForG.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftBookForG/Pods-RxSwiftBookForG.release.xcconfig"; sourceTree = "<group>"; };
 		B20B7A8490EF7943D390101F /* Pods-RxSwiftBookForG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftBookForG.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftBookForG/Pods-RxSwiftBookForG.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				0975F8FE26FDC82A00DED8C4 /* LaunchScreen.storyboard */,
 				0975F90126FDC82A00DED8C4 /* Info.plist */,
 				0975F90926FEC2E100DED8C4 /* ObservableDemo.swift */,
+				0975F90E2701948800DED8C4 /* BindingTextField.swift */,
 			);
 			path = RxSwiftBookForG;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			files = (
 				0975F8F826FDC82900DED8C4 /* ViewController.swift in Sources */,
 				0975F90A26FEC2E100DED8C4 /* ObservableDemo.swift in Sources */,
+				0975F90F2701948800DED8C4 /* BindingTextField.swift in Sources */,
 				0975F8F426FDC82900DED8C4 /* AppDelegate.swift in Sources */,
 				0975F8F626FDC82900DED8C4 /* SceneDelegate.swift in Sources */,
 			);
