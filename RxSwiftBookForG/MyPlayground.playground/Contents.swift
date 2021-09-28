@@ -1,15 +1,61 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import RxTest
 
-public enum TestError : Error {
-    case test
-}
-let observable = Observable<String>.create { observer in
-    observer.onNext("A")
-    observer.onError(TestError.test)
-    return Disposables.create()
-}
+
+//let scheduler = TestScheduler(initialClock: 0)
+//let observable = scheduler.createHotObservable([
+//    Recorded.next(1, "R"),
+//    Recorded.next(2, "Rx"),
+//    Recorded.next(3, "RxS"),
+//    Recorded.next(4, "RxSw"),
+//    Recorded.next(5, "RxSwi"),
+//    Recorded.next(6, "RxSwift")
+//])
+//
+//_ = observable
+//    .debounce(.seconds(1), scheduler: scheduler)
+//    .subscribe(onNext: {
+//        print("onNext:", $0)
+//    })
+//
+//scheduler.start()
+
+
+
+//let time = DispatchTimeInterval.milliseconds(3)
+//print(time)
+
+//let observable = Observable.of(
+//"R",
+//"Rx",
+//"RxS",
+//"RxSw",
+//"RxSwi",
+//"RxSwif",
+//"RxSwift"
+//).debounce(<#T##dueTime: RxTimeInterval##RxTimeInterval#>, scheduler: <#T##SchedulerType#>)
+//
+//_ = observable
+//    .filter({ $0.count >= 2 })
+//    .map({ $0.lowercased() })
+//.subscribe(onNext: {
+//    print("onNext: ", $0)
+//}, onCompleted: { print("終了")
+//})
+//
+
+
+//public enum TestError : Error {
+//    case test
+//}
+//let observable = Observable<String>.create { observer in
+//    observer.onNext("A")
+//    observer.onError(TestError.test)
+//    return Disposables.create()
+//}
+//
 
 //// 1.
 //_ = observable.materialize()

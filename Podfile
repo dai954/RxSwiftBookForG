@@ -8,4 +8,5 @@ target 'RxSwiftBookForG' do
   # Pods for RxSwiftBookForG
     pod 'RxSwift', '6.2.0'
     pod 'RxCocoa', '6.2.0'
+    pod 'RxTest', '6.2.0'
 end
