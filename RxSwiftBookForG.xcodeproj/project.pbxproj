@@ -35,6 +35,8 @@
 		0975F950270338D100DED8C4 /* GitHubClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975F949270338D000DED8C4 /* GitHubClientTests.swift */; };
 		0975F951270338D100DED8C4 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975F94A270338D100DED8C4 /* RepositoryTests.swift */; };
 		0975F952270338D100DED8C4 /* StubHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975F94B270338D100DED8C4 /* StubHTTPClient.swift */; };
+		0975F9AD270ECCEC00DED8C4 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975F9AC270ECCEC00DED8C4 /* ActivityIndicator.swift */; };
+		0975F9AF270ECED600DED8C4 /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975F9AE270ECED600DED8C4 /* Wireframe.swift */; };
 		B599F7F633614B74A4DF616B /* Pods_RxSwiftBookForG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A1A30D95B7E1715872B30 /* Pods_RxSwiftBookForG.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,8 @@
 		0975F949270338D000DED8C4 /* GitHubClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubClientTests.swift; sourceTree = "<group>"; };
 		0975F94A270338D100DED8C4 /* RepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
 		0975F94B270338D100DED8C4 /* StubHTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubHTTPClient.swift; sourceTree = "<group>"; };
+		0975F9AC270ECCEC00DED8C4 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		0975F9AE270ECED600DED8C4 /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
 		664A1A30D95B7E1715872B30 /* Pods_RxSwiftBookForG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftBookForG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90224AB0F8C43DE726B90AAE /* Pods-RxSwiftBookForG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftBookForG.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftBookForG/Pods-RxSwiftBookForG.release.xcconfig"; sourceTree = "<group>"; };
 		B20B7A8490EF7943D390101F /* Pods-RxSwiftBookForG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftBookForG.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftBookForG/Pods-RxSwiftBookForG.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 				0975F90126FDC82A00DED8C4 /* Info.plist */,
 				0975F90926FEC2E100DED8C4 /* ObservableDemo.swift */,
 				0975F90E2701948800DED8C4 /* BindingTextField.swift */,
+				0975F9AB270ECCD600DED8C4 /* Services */,
 			);
 			path = RxSwiftBookForG;
 			sourceTree = "<group>";
@@ -180,6 +185,15 @@
 				0975F946270338D000DED8C4 /* UserTests.swift */,
 			);
 			path = GitHubSearchTests;
+			sourceTree = "<group>";
+		};
+		0975F9AB270ECCD600DED8C4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0975F9AC270ECCEC00DED8C4 /* ActivityIndicator.swift */,
+				0975F9AE270ECED600DED8C4 /* Wireframe.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		6B8BF76F0DE21E27E53E617D /* Pods */ = {
@@ -317,6 +331,7 @@
 				0975F90A26FEC2E100DED8C4 /* ObservableDemo.swift in Sources */,
 				0975F90F2701948800DED8C4 /* BindingTextField.swift in Sources */,
 				0975F92E2702F6C300DED8C4 /* Extensions.swift in Sources */,
+				0975F9AD270ECCEC00DED8C4 /* ActivityIndicator.swift in Sources */,
 				0975F93D2703380800DED8C4 /* GItHubAPI.swift in Sources */,
 				0975F9282702C26A00DED8C4 /* URLRequest+Extensions.swift in Sources */,
 				0975F94E270338D100DED8C4 /* GitHubAPIErrorTests.swift in Sources */,
@@ -335,6 +350,7 @@
 				0975F9412703380800DED8C4 /* GitHubClient.swift in Sources */,
 				0975F94F270338D100DED8C4 /* ExampleJSON.swift in Sources */,
 				0975F8F626FDC82900DED8C4 /* SceneDelegate.swift in Sources */,
+				0975F9AF270ECED600DED8C4 /* Wireframe.swift in Sources */,
 				0975F9422703380800DED8C4 /* GitHubRequest.swift in Sources */,
 				0975F950270338D100DED8C4 /* GitHubClientTests.swift in Sources */,
 				0975F9392703380800DED8C4 /* SearchResponse.swift in Sources */,
