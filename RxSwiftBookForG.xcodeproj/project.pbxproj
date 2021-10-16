@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0909D54B2712E30900E5CDDD /* ObserverDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909D54A2712E30900E5CDDD /* ObserverDemo.swift */; };
+		0909D628271AAAE700E5CDDD /* GitHubSignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909D627271AAAE700E5CDDD /* GitHubSignupViewModel.swift */; };
+		0909D62A271AAB1400E5CDDD /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909D629271AAB1400E5CDDD /* Protocols.swift */; };
 		0975F8F426FDC82900DED8C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975F8F326FDC82900DED8C4 /* AppDelegate.swift */; };
 		0975F8F626FDC82900DED8C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975F8F526FDC82900DED8C4 /* SceneDelegate.swift */; };
 		0975F8F826FDC82900DED8C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975F8F726FDC82900DED8C4 /* ViewController.swift */; };
@@ -41,6 +44,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0909D54A2712E30900E5CDDD /* ObserverDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverDemo.swift; sourceTree = "<group>"; };
+		0909D627271AAAE700E5CDDD /* GitHubSignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSignupViewModel.swift; sourceTree = "<group>"; };
+		0909D629271AAB1400E5CDDD /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		0975F8F026FDC82900DED8C4 /* RxSwiftBookForG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftBookForG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0975F8F326FDC82900DED8C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0975F8F526FDC82900DED8C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +124,7 @@
 				0975F8F326FDC82900DED8C4 /* AppDelegate.swift */,
 				0975F8F526FDC82900DED8C4 /* SceneDelegate.swift */,
 				0975F8F726FDC82900DED8C4 /* ViewController.swift */,
+				0909D627271AAAE700E5CDDD /* GitHubSignupViewModel.swift */,
 				0975F8F926FDC82900DED8C4 /* Main.storyboard */,
 				0975F8FC26FDC82A00DED8C4 /* Assets.xcassets */,
 				0975F8FE26FDC82A00DED8C4 /* LaunchScreen.storyboard */,
@@ -125,6 +132,8 @@
 				0975F90926FEC2E100DED8C4 /* ObservableDemo.swift */,
 				0975F90E2701948800DED8C4 /* BindingTextField.swift */,
 				0975F9AB270ECCD600DED8C4 /* Services */,
+				0909D54A2712E30900E5CDDD /* ObserverDemo.swift */,
+				0909D629271AAB1400E5CDDD /* Protocols.swift */,
 			);
 			path = RxSwiftBookForG;
 			sourceTree = "<group>";
@@ -337,15 +346,18 @@
 				0975F94E270338D100DED8C4 /* GitHubAPIErrorTests.swift in Sources */,
 				0975F92C2702F10B00DED8C4 /* SomeProtocol.swift in Sources */,
 				0975F93B2703380800DED8C4 /* GitHubClientError.swift in Sources */,
+				0909D54B2712E30900E5CDDD /* ObserverDemo.swift in Sources */,
 				0975F93F2703380800DED8C4 /* HTTPMethod.swift in Sources */,
 				0975F93E2703380800DED8C4 /* GitHubAPIError.swift in Sources */,
 				0975F951270338D100DED8C4 /* RepositoryTests.swift in Sources */,
 				0975F9402703380800DED8C4 /* HTTPClient.swift in Sources */,
+				0909D62A271AAB1400E5CDDD /* Protocols.swift in Sources */,
 				0975F8F426FDC82900DED8C4 /* AppDelegate.swift in Sources */,
 				0975F94D270338D100DED8C4 /* UserTests.swift in Sources */,
 				0975F93C2703380800DED8C4 /* User.swift in Sources */,
 				0975F93A2703380800DED8C4 /* Repository.swift in Sources */,
 				0975F94C270338D100DED8C4 /* SearchResponseTests.swift in Sources */,
+				0909D628271AAAE700E5CDDD /* GitHubSignupViewModel.swift in Sources */,
 				0975F952270338D100DED8C4 /* StubHTTPClient.swift in Sources */,
 				0975F9412703380800DED8C4 /* GitHubClient.swift in Sources */,
 				0975F94F270338D100DED8C4 /* ExampleJSON.swift in Sources */,
